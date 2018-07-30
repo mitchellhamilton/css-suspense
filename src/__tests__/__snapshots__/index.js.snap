@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`wow 1`] = `
+<html>
+  <head />
+  <body>
+    <div
+      id="root"
+    >
+      <div>
+        some other content
+      </div>
+    </div>
+    <link
+      href="./style.css"
+      media="all"
+      rel="stylesheet"
+    />
+  </body>
+</html>
+`;
+
+exports[`wow 2`] = `
+<html>
+  <head />
+  <body>
+    <div
+      id="root"
+    >
+      <link
+        href="./style.css"
+      />
+      <span
+        class="big"
+      >
+        what up what up
+      </span>
+      <div>
+        some other content
+      </div>
+    </div>
+    <link
+      href="./style.css"
+      media="all"
+      rel="stylesheet"
+    />
+  </body>
+</html>
+`;
